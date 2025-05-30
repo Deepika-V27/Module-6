@@ -40,7 +40,7 @@ class complex:
     def __add__(self, other):
         real_part = self.real / other.real, self.imag / other.imag
         return real_part
-Ob1 = complex(1, 2)
+Ob1 = complex(10, 21)
 Ob2 = complex(2, 3)
 print(Ob1 + Ob2)
 ```
