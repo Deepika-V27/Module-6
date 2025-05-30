@@ -1,12 +1,11 @@
 # Exp.No:30  
 ## COUNTER CLASS
 
----
 
 ### AIM  
 To write a Python program to create a `Counter` class that can increment the value of a counter.
 
----
+
 
 ### ALGORITHM
 
@@ -21,15 +20,21 @@ To write a Python program to create a `Counter` class that can increment the val
 8. **Call the `value()` method** and print the result to show the current counter value.
 9. **End the program.**
 
----
+
 
 ### PROGRAM
 
 ```
-
+n=int(input())
+count=0
+while(n>0):
+    count=count+1
+    n=n//10
+print("The number of digits in the number are:",count)
 ```
 
 ### OUTPUT
-
+![image](https://github.com/user-attachments/assets/72eb069d-4acc-4762-97cb-bec8a56a46a9)
 
 ### RESULT
+Thus the Python program to create a `Counter` class that can increment the value of a counter has been executed successfully.
